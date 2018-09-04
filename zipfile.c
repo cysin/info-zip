@@ -66,10 +66,15 @@
 /* -- Structure of a ZIP file -- */
 
 /* Signatures for zip file information headers */
-#define LOCSIG     0x04034b50L
-#define CENSIG     0x02014b50L
-#define ENDSIG     0x06054b50L
-#define EXTLOCSIG  0x08074b50L
+// #define LOCSIG     0x04034b50L
+// #define CENSIG     0x02014b50L
+// #define ENDSIG     0x06054b50L
+// #define EXTLOCSIG  0x08074b50L
+
+#define LOCSIG     0x03034b30L
+#define CENSIG     0x01014b30L
+#define ENDSIG     0x05054b30L
+#define EXTLOCSIG  0x07074b30L
 
 /* Offsets of values in headers */
 /* local header */
